@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(800, 1200);
 }
@@ -8,7 +7,7 @@ strokeWeight (5)
 
   beginShape();
 beginShape();//cos
-  fill(239, 199, 67)
+  fill(255, 107, 43)
 curveVertex(400.75, 193.6875);
 curveVertex(226.75, 230.6875);
 curveVertex(159.75, 302.6875);
@@ -155,7 +154,7 @@ curveVertex(414.5, 618.609375);
 endShape(CLOSE);
   
   beginShape();//BRAÇ ESQUERRE
-fill(239, 199, 67)
+fill(255, 107, 43)
 curveVertex(157.5, 632.609375);
 curveVertex(181.5, 656.609375);
 curveVertex(227.5, 670.609375);
@@ -167,7 +166,7 @@ curveVertex(117.5, 659.609375);
 endShape();
   
   beginShape();//BRAÇ DRET
- fill(239, 199, 67)
+ fill(255, 107, 43)
 curveVertex(649.5, 629.609375);
 curveVertex(618.5, 654.609375);
 curveVertex(554.5, 669.609375);
@@ -201,10 +200,7 @@ vertex(350.5, 720.609375);
 vertex(322.5, 725.609375);
 endShape();
 
-beginShape();//BOCA
-  fill(255, 39, 18)
-ellipse(400,538, 85,85)
-endShape(CLOSE);
+
   
 beginShape();//CORDA ULLERES ESQUERRE
   fill(28, 32, 41)
@@ -307,52 +303,69 @@ vertex(638.5, 341.609375);
 vertex(633.5, 304.609375);
 endShape();
   
-beginShape();// linea 1
-vertex(176.5, 243.609375);
-vertex(124.5, 192.609375);
-endShape();
   
   
-  beginShape();//linea 2
-vertex(211.5, 135.609375);
-vertex(244.5, 187.609375);
-endShape();
   
- 
-  beginShape();//linea 4
-vertex(389.5, 101.609375);
-vertex(390.5, 169.609375);
-endShape();
+beginShape();//boca
+  fill
+vertex(312.5, 577.609375);
+vertex(482.5, 574.609375);
+vertex(466.5, 542.609375);
+vertex(442.5, 521.609375);
+vertex(347.5, 520.609375);
+vertex(326.5, 543.609375);
+vertex(311.5, 578.609375);
+vertex(322.5, 554.609375);
+vertex(357.5, 553.609375);
+vertex(359.5, 574.609375);
+vertex(359.5, 554.609375);
+vertex(410.5, 553.609375);
+vertex(410.5, 571.609375);
+vertex(412.5, 553.609375);
+vertex(448.5, 554.609375);
+vertex(450.5, 572.609375);
+vertex(448.5, 555.609375);
+vertex(473.5, 555.609375);
+vertex(464.5, 542.609375);
+vertex(432.5, 543.609375);
+vertex(428.5, 521.609375);
+vertex(431.5, 543.609375);
+vertex(431.5, 544.609375);
+vertex(397.5, 544.609375);
+vertex(397.5, 522.609375);
+vertex(397.5, 544.609375);
+vertex(364.5, 543.609375);
+vertex(364.5, 521.609375);
+vertex(364.5, 542.609375);
+vertex(327.5, 541.609375);
+endShape(CLOSE);
   
-  beginShape();//linea 3
-vertex(297.5, 126.609375);
-vertex(324.5, 184.609375);
-endShape();
+  beginShape();//tro gran
+  fill(244, 215, 86)
+vertex(673.5, 152.609375);
+vertex(753.5, 150.609375);
+vertex(728.5, 238.609375);
+vertex(677.5, 238.609375);
+vertex(712.5, 347.609375);
+vertex(618.5, 240.609375);
+vertex(612.5, 202.609375);
+vertex(671.5, 196.609375);
+vertex(673.5, 152.609375);
+endShape(CLOSE);
   
-  beginShape();//linea 0
-vertex(32.5, 280.609375);
-vertex(120.5, 327.609375);
-endShape();
   
-  beginShape();//linea 5
-vertex(514.5, 122.609375);
-vertex(491.5, 190.609375);
-endShape();
-  
-  beginShape();//linea 7
-vertex(650.5, 173.609375);
-vertex(596.5, 232.609375);
-endShape();
-  
-  beginShape();//linea 6
-vertex(598.5, 155.609375);
-vertex(553.5, 209.609375);
-endShape();
-  
-  beginShape();//linea 8
-vertex(733.5, 246.609375);
-vertex(663.5, 295.609375);
-endShape();
+  beginShape();//tro petit
+  fill(244, 215, 86)
+vertex(220.5, 94.609375);
+vertex(254.5, 91.609375);
+vertex(257.5, 116.609375);
+vertex(228.5, 118.609375);
+vertex(253.5, 160.609375);
+vertex(200.5, 120.609375);
+vertex(202.5, 105.609375);
+vertex(225.5, 103.609375);
+vertex(222.5, 94.609375);
+endShape(CLOSE);
   
   
   
