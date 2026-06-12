@@ -311,7 +311,7 @@ beginShape();//boca
 curveVertex(295.5, 571.609375);
 curveVertex(330.5, 540.609375);
 curveVertex(395.5, 546.609375);
-curveVertex(4255, 577.609375);
+curveVertex(425.5, 577.609375);
 endShape();
   
    let x=sin(frameCount*0.02)*60;
